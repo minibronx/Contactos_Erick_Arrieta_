@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="erick.arrieta.contactos.Formulario2">
+
+    <TextView
+        android:id="@+id/Nombre"
+        android:layout_width="74dp"
+        android:layout_height="35dp"
+        android:text="Nombre"
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="57dp" />
+
+    <TextView
+        android:id="@+id/Telefono"
+        android:layout_width="73dp"
+        android:layout_height="30dp"
+        android:text="Telefono"
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="140dp" />
+
+    <TextView
+        android:id="@+id/Correo"
+        android:layout_width="79dp"
+        android:layout_height="35dp"
+        android:text="Correo"
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="243dp" />
+
+    <Button
+        android:id="@+id/button_agregar"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="Agregar"
+        tools:layout_editor_absoluteX="138dp"
+        tools:layout_editor_absoluteY="373dp" />
+
+    <EditText
+        android:id="@+id/Text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="130dp"
+        tools:layout_editor_absoluteY="53dp" />
+
+    <EditText
+        android:id="@+id/Text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="130dp"
+        tools:layout_editor_absoluteY="137dp" />
+
+    <EditText
+        android:id="@+id/Text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="138dp"
+        tools:layout_editor_absoluteY="234dp" />
+</android.support.constraint.ConstraintLayout>
